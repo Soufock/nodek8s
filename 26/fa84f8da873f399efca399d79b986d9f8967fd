@@ -1,0 +1,14 @@
+k8s/deployment.yaml
+  h_e7d9d6fa792364 7-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.3",
+  "base_commit_sha": "26fa84f8da873f399efca399d79b986d9f8967fd",
+  "prompts": {},
+  "humans": {
+    "h_e7d9d6fa792364": {
+      "author": "Soulock <46890701+Soufock@users.noreply.github.com>"
+    }
+  }
+}
