@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
     res.json({
-        message: "Hello Kubernetes 1.0.3",
+        message: "Hello Kubernetes 1.0.4",
         hostname: os.hostname(),
         podIP: getPodIP(),
         nodeName: process.env.NODE_NAME || "unknown",
