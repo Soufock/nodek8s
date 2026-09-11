@@ -1,0 +1,26 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+
+metadata:
+  name: node-k8s-demo
+  namespace: argocd
+
+spec:
+  project: default
+
+  source:
+    repoURL: "ssh://git@github.com:Soufock/nodek8s.git"
+    targetRevision: main
+    path: k8s
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: node-k8s-demo
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+
+    syncOptions:
+      - CreateNamespace=true
