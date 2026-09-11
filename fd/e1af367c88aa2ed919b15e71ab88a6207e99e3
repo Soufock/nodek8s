@@ -1,0 +1,14 @@
+argocd/application.yaml
+  h_e7d9d6fa792364 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "development:1.7.3",
+  "base_commit_sha": "fde1af367c88aa2ed919b15e71ab88a6207e99e3",
+  "prompts": {},
+  "humans": {
+    "h_e7d9d6fa792364": {
+      "author": "Soulock <46890701+Soufock@users.noreply.github.com>"
+    }
+  }
+}
