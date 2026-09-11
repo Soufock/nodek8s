@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: k8s-node-demo:1.0.0
+          image: k8s-node-demo:1.0.3
 
           imagePullPolicy: IfNotPresent
 
